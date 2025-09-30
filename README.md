@@ -7,15 +7,12 @@ Requirements:
 1. Store balances for 5 accounts in an array of doubles.
 2. Use functions with prototypes:
 - void deposit(double &balance, double amount); (pass by reference)
-- void withdraw(double &balance, double amount); (if withdrawal > balance, program
-ends with exit(0)).
+- void withdraw(double &balance, double amount); (if withdrawal > balance, program ends with exit(0)).
 - double getTotalBalance(const double accounts[], int size); (return value).
-3. Add a static local variable inside a function transactionCount() that keeps track of how
-many deposits/withdrawals were made.
+3. Add a static local variable inside a function transactionCount() that keeps track of how many deposits/withdrawals were made.
 4. Use a default argument function void displayMessage(string msg="Transaction
 complete");
-5. Demonstrate global vs local variables: have a global int totalTransactions, and update it
-each time a deposit/withdrawal is made.
+5. Demonstrate global vs local variables: have a global int totalTransactions, and update it each time a deposit/withdrawal is made.
 Hints:
 - Arrays are passed to functions by reference automatically.
 - Use reference parameters (&) in deposit and withdraw.
