@@ -3,22 +3,11 @@
   "configurations": [
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
       "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "c:/CSUEB/CSUEB_Projects/CS 201/CS201-G4-L6",
-      "program": "c:/CSUEB/CSUEB_Projects/CS 201/CS201-G4-L6/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
-      "setupCommands": [
-        {
-          "description": "Enable pretty-printing for gdb",
-          "text": "-enable-pretty-printing",
-          "ignoreFailures": true
-        }
-      ]
+      "cwd": "/Users/tysonlam/Desktop",
+      "program": "/Users/tysonlam/Desktop/build/Debug/outDebug"
     }
   ]
 }
